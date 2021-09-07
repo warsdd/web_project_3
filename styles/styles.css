@@ -1,0 +1,388 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("Inter-Black.woff2?v=3.19") format("woff2"),
+         url("Inter-Black.woff?v=3.19") format("woff");
+  }
+
+  @font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+         url("Inter-Regular.woff?v=3.19") format("woff");
+  }
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("Inter-SemiBold.woff2?v=3.19") format("woff2"),
+     url("Inter-SemiBold.woff?v=3.19") format("woff");
+}       
+
+
+.page {
+  min-width: 1280px;
+  background: #2A2C2F;
+  margin: 0 auto;
+  font-family: Inter, Arial, serif;
+}
+
+.content {
+ 
+}
+
+/*header section*/
+.header {
+  width: 271px;
+  height: 72px;
+  left: 504px;
+  top: 34px;
+  position: relative;
+  border: solid 1px red;
+}
+
+.header__logo {
+  width: 32px;
+  height: 32px;
+  left: 623px;
+  top: 34px;
+  background: #0278FE;
+  border-radius: 2px;
+}
+
+.header__logo_title {
+  width: 271px;
+  height: 20px;
+  left: 504px;
+  top: 86px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 20px;
+/* identical to box height, or 100% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  /*why is the text wrapping?*/
+}
+
+
+/*lead section*/
+.lead {
+  width: 984px;
+  height: 983px;
+  left: 148px;
+  top: 198px;
+  position: relative;
+  border: solid 1px red;
+}
+
+.lead__title {
+  width: 793px;
+  height: 200px;
+  left: 232px;
+  top: 198px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+/* or 104% */
+  text-align: center;
+  position: relative;
+  color: #FFFFFF;
+  border: solid 1px red;
+}
+
+.lead__subtitle{ 
+  width: 720px;
+  height: 72px;
+  left: 280px;
+  top: 430px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+/* or 120% */
+  text-align: center;
+  position: relative;
+  color: #FFFFFF;
+  border: solid 1px red;
+}
+
+.lead__image {
+  width: 984px;
+  height: 615px;
+  margin: 148px 148px;
+  top: 566px;
+  filter: grayscale(100%);
+  border: solid 1px red;
+}
+
+/*intro section*/
+.intro {
+  width: 785px;
+  height: 490px;
+  left: 148px;
+  top: 1273px;
+  border: solid 1px red;
+}
+
+.intro__title {
+  width: 785px;
+  height: 116px;
+  left: 148px;
+  top: 1273px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+/* or 107% */
+  color: #FFFFFF;
+  border: solid 1px red;
+}
+
+.intro__text {
+  width: 690px;
+  height: 34px;
+  left: 148px;
+  top: 1541px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+/* identical to box height, or 142% */
+  text-align: right;
+  color: #FFFFFF;
+  border: solid 1px red;
+}
+
+.photo-grid {
+  width: 1184px;
+  height: 442px;
+  left: 48px;
+  top: 1881px;
+  border: solid 1px red;
+}
+
+.photo-grid__item {
+  width: 284px;
+  height: 213px;
+  left: 48px;
+  top: 1881px;
+  background: url(image.png);
+  border: solid 1px red;
+}
+
+.places {
+  width: 987px;
+  height: 4098px;
+  left: 145px;
+  top: 2415px;
+  border: solid 1px red;
+}
+
+.place {
+  border: solid 1px red;
+}
+
+.place__title {
+  width: 460px;
+  height: 152px;
+  left: 145px;
+  top: 5757px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* or 106% */
+  color: #FFFFFF;
+  border: solid 1px red;
+}
+
+.place__website {
+  width: 456px;
+  height: 45px;
+  left: 648px;
+  top: 4954px;
+  border: solid 1px red;
+}
+
+.place__url-heading {
+  width: 50px;
+  height: 15px;
+  left: 648px;
+  top: 4954px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #AAAAAA;
+  border: solid 1px red;
+}
+
+.place__link {
+  width: 456px;
+  height: 22px;
+  left: 648px;
+  top: 4977px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  border: solid 1px red;
+  color: #FFFFFF;
+}
+
+.place__image {
+  width: 460px;
+  height: 460px;
+  left: 148px;
+  top: 5047px;
+  border: solid 1px red;
+  background: url(image.png);
+}
+
+.place__main-text {
+  border: solid 1px red;
+}
+
+.place__paragraph {
+  width: 484px;
+  height: 174px;
+  left: 648px;
+  top: 5047px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+  border: solid 1px red;
+  color: #FFFFFF;
+}
+
+.button {
+  border: solid 1px red;
+}
+
+.button__link {
+  width: 208px;
+  height: 22px;
+  left: 20px;
+  top: 13px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+/* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.cover {
+  width: 1184px;
+  height: 740px;
+  left: 48px;
+  top: 6605px;
+  border: solid 1px red;
+}
+
+.cover__title {
+  width: 656px;
+  height: 76px;
+  left: 312px;
+  top: 6848px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  /* identical to box height, or 106% */
+  text-align: center;
+  border: solid 1px red;
+  color: #FFFDFD;
+}
+
+.cover__subtitle {
+  width: 320px;
+  height: 66px;
+  left: 479px;
+  top: 6956px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
+  border: solid 1px red;
+  color: #FFFFFF;
+}
+
+.cover__link {
+  width: 97px;
+  height: 22px;
+  left: 20px;
+  top: 13px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #FFFFFF;
+  border: solid 1px red;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.footer {
+  width: 165px;
+  height: 16px;
+  left: 557px;
+  top: 7437px;
+  border: solid 1px red;
+}
+
+.footer__copyright {
+  width: 165px;
+  height: 16px;
+  left: 557px;
+  top: 7437px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: right;
+  border: solid 1px red;
+  color: #FFFFFF;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13px 20px;
+  width: 137px;
+  height: 48px;
+  left: 569px;
+  top: 7054px;
+  background: #0278FE;
+  border-radius: 4px;
+  border: solid 1px red;
+}
+
