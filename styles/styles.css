@@ -34,67 +34,54 @@
 }
 
 .content {
- 
+
 }
 
-/*header section*/
+
 .header {
-  width: 271px;
-  height: 72px;
-  left: 504px;
+  /*left: 504px;
+  right: 505px;*/
   top: 34px;
+  bottom: 0px;
   position: relative;
+  display: flex;
+  justify-content: center;
   border: solid 1px red;
-}
+}*/
 
-.header__logo {
-  width: 32px;
-  height: 32px;
-  left: 623px;
-  top: 34px;
-  background: #0278FE;
-  border-radius: 2px;
-}
-
-.header__logo_title {
-  width: 271px;
-  height: 20px;
-  left: 504px;
-  top: 86px;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 20px;
-  line-height: 20px;
-/* identical to box height, or 100% */
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  /*why is the text wrapping?*/
+.header__logo { /*why is the right margin stretching like that?*/
+  max-width: 271px;
+  max-height: 72px;
+  top: 12px;
+  border: solid 1px red;
 }
 
 
 /*lead section*/
 .lead {
-  width: 984px;
-  height: 983px;
+  max-width: 984px;
+  max-height: 983px;
+  top: 92px;
   left: 148px;
-  top: 198px;
+  right: 148px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: solid 1px red;
 }
 
 .lead__title {
   width: 793px;
   height: 200px;
-  left: 232px;
-  top: 198px;
-  font-style: normal;
+  padding: 0;
+  /*left: 232px;*/
+  /*top: 198px;*/
+  /*font-style: normal;
   font-weight: 900;
   font-size: 96px;
-  line-height: 100px;
+  line-height: 100px;*/
 /* or 104% */
-  text-align: center;
-  position: relative;
   color: #FFFFFF;
   border: solid 1px red;
 }
@@ -102,15 +89,11 @@
 .lead__subtitle{ 
   width: 720px;
   height: 72px;
-  left: 280px;
-  top: 430px;
-  font-style: normal;
+  margin-bottom: 64px;
+  /*font-style: normal;
   font-weight: normal;
   font-size: 30px;
-  line-height: 36px;
-/* or 120% */
-  text-align: center;
-  position: relative;
+  line-height: 36px;*/
   color: #FFFFFF;
   border: solid 1px red;
 }
@@ -118,13 +101,11 @@
 .lead__image {
   width: 984px;
   height: 615px;
-  margin: 148px 148px;
-  top: 566px;
   filter: grayscale(100%);
   border: solid 1px red;
 }
 
-/*intro section*/
+/*intro section
 .intro {
   width: 785px;
   height: 490px;
@@ -142,7 +123,7 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-/* or 107% */
+/* or 107% 
   color: #FFFFFF;
   border: solid 1px red;
 }
@@ -156,7 +137,7 @@
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
-/* identical to box height, or 142% */
+/* identical to box height, or 142% 
   text-align: right;
   color: #FFFFFF;
   border: solid 1px red;
@@ -167,6 +148,7 @@
   height: 442px;
   left: 48px;
   top: 1881px;
+  display: grid;
   border: solid 1px red;
 }
 
@@ -200,7 +182,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  /* or 106% */
+  /* or 106% 
   color: #FFFFFF;
   border: solid 1px red;
 }
@@ -222,7 +204,7 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
+  /* identical to box height 
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #AAAAAA;
@@ -238,7 +220,7 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height, or 122% */
+  /* identical to box height, or 122% 
   border: solid 1px red;
   color: #FFFFFF;
 }
@@ -265,7 +247,7 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
-  /* or 29px */
+  /* or 29px 
   border: solid 1px red;
   color: #FFFFFF;
 }
@@ -285,7 +267,7 @@
   line-height: 22px;
   /* identical to box height */
   color: #FFFFFF;
-/* Inside Auto Layout */
+/* Inside Auto Layout 
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -309,7 +291,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  /* identical to box height, or 106% */
+  /* identical to box height, or 106% 
   text-align: center;
   border: solid 1px red;
   color: #FFFDFD;
@@ -324,7 +306,7 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  /* or 122% */
+  /* or 122% 
   text-align: center;
   border: solid 1px red;
   color: #FFFFFF;
@@ -339,10 +321,10 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
+  /* identical to box height 
   color: #FFFFFF;
   border: solid 1px red;
-  /* Inside Auto Layout */
+  /* Inside Auto Layout 
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -366,7 +348,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  /* identical to box height, or 114% */
+  /* identical to box height, or 114% 
   text-align: right;
   border: solid 1px red;
   color: #FFFFFF;
