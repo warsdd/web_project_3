@@ -17,13 +17,11 @@
   margin: auto;
   display: flex;
   justify-content: center;
-  
 }
 
 .header__logo { 
   width: 271px;
   margin-top: 12px;
-  
 }
 
 
@@ -33,7 +31,6 @@
   padding-top: 92px;
   margin: auto;
   text-align: center;
-  
 }
 
 .lead__title {
@@ -43,7 +40,6 @@
   font-weight: 900;
   font-size: 96px;
   line-height: 100px;
-  
 }
 
 .lead__subtitle{ 
@@ -54,7 +50,6 @@
   font-weight: normal;
   font-size: 30px;
   line-height: 36px;
-  
 }
 
 .lead__image {
@@ -67,7 +62,6 @@
   max-width: 984px;
   margin: auto;
   padding-bottom: 118px;
-  
 }
 
 .intro__title {
@@ -76,7 +70,6 @@
   font-weight: 900;
   font-size: 54px;
   line-height: 58px;
-  
 }
 
 .intro__quote {
@@ -86,7 +79,6 @@
   font-size: 24px;
   line-height: 34px;
   margin: 0;
-  
 }
 
 .intro__name {
@@ -97,7 +89,6 @@
   line-height: 34px;
   text-align: right;
   margin: 10px 0 0;
-  
 }
 
 .intro__description {
@@ -107,7 +98,6 @@
   font-size: 16px;
   line-height: 34px;
   margin: 32px 0 0;
-  
 }
 
 .photo-grid {
@@ -117,7 +107,6 @@
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 16px;
   padding: 0;
-  
 }
 
 .photo-grid__item {
@@ -125,21 +114,18 @@
   height: 213px;
   margin: auto;
   /*still need padding between photos*/
-  
 }
 
 .places {
   max-width: 987px;
   margin: auto;
   margin-top: 92px;
-  
 }
 
 .place { /*need to have a look at this layout*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
 }
 
 .place__title {
@@ -149,7 +135,6 @@
   font-size: 72px;
   line-height: 76px;
   margin: 0;
-  
 }
 
 .place__website {
@@ -158,7 +143,6 @@
   flex-direction: column;
   justify-content: flex-end;
   margin-left: 40px;
-  
 }
 
 .place__url-heading {
@@ -171,7 +155,6 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: #AAAAAA;
-  
 }
 
 .place__link {
@@ -216,7 +199,7 @@
 }
 
 .button:hover {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .button__link {
@@ -245,7 +228,6 @@
   background-repeat:no-repeat;
   background-position: center;
   background-size:cover;
-  
 }
 
 .cover__title {
@@ -258,7 +240,6 @@
   line-height: 76px;
   text-align: center;
   z-index: 2;
-  
 }
 
 .cover__subtitle {
@@ -269,7 +250,6 @@
   line-height: 22px;
   text-align: center;
   z-index: 2;
-  
 }
 
 .cover__button {
@@ -303,7 +283,6 @@
   width: 100%;
   height: 100%;
   z-index: 1;
-  
 }
 
 .cover__overlay:hover {
@@ -313,7 +292,6 @@
 .footer {
   width: 165px;
   margin: auto;
-  
 }
 
 .footer__copyright {
@@ -326,7 +304,6 @@
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  
 }
 
 
