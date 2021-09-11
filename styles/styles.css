@@ -211,7 +211,12 @@
   height: 48px;
   margin-top: 48px;
   margin-bottom: 80px;
-  /*need to get rid of border shadow*/
+  border-width: 0px;
+  transition: opacity 0.2s linear;
+}
+
+.button:hover {
+  opacity: 0.6;
 }
 
 .button__link {
