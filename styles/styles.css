@@ -129,7 +129,7 @@
 }
 
 .place__title {
-  width: 460px;
+  max-width: 460px;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -146,7 +146,7 @@
 }
 
 .place__url-heading {
-  width: 50px;
+  max-width: 50px;
   height: 15px;
   font-style: normal;
   font-weight: normal;
@@ -158,7 +158,7 @@
 }
 
 .place__link {
-  width: 456px;
+  max-width: 456px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -179,7 +179,7 @@
 }
 
 .place__paragraph {
-  width: 484px;
+  max-width: 484px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -306,4 +306,17 @@
   text-align: center;
 }
 
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .cover{
+    max-width: 768px;
+  }
 
+  .cover__overlay {
+    
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 482px) {
+  
+  }
+}
