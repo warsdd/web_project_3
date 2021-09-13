@@ -4,16 +4,15 @@
 
 .content {
   max-width: 1184px;
-  margin: auto;
-  font-family: "Inter";
+  margin: 0 auto;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   color: #FFFFFF;
 }
 
 /*header section*/
 .header {
   max-width: 984px;
-  padding-top: 34px; 
-  padding-bottom: 0;
+  padding: 34px 0px; 
   margin: auto;
   display: flex;
   justify-content: center;
@@ -65,7 +64,7 @@
 }
 
 .intro__title {
-  width: 785px;
+  max-width: 785px;
   font-style: normal;
   font-weight: 900;
   font-size: 54px;
@@ -89,6 +88,7 @@
   line-height: 34px;
   text-align: right;
   margin: 10px 0 0;
+  /*maybe use percentage here?*/
 }
 
 .intro__description {
@@ -109,8 +109,12 @@
   padding: 0;
 }
 
+@media screen and (max-width: 768px) {
+  
+}
+
 .photo-grid__item {
-  width: 284px;
+  max-width: 284px;
   height: 213px;
   margin: auto;
   /*still need padding between photos*/
@@ -306,7 +310,7 @@
   text-align: center;
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .cover{
     max-width: 768px;
   }
@@ -316,7 +320,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 482px) {
+@media screen and(max-width: 482px) {
   
   }
 }
