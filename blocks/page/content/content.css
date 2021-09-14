@@ -1,0 +1,8 @@
+.content {
+    max-width: 1184px;
+    margin: 0 auto;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+  }
+
+  /***NOT BEM***/

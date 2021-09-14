@@ -1,0 +1,6 @@
+
+.place { /*need to have a look at this layout*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }

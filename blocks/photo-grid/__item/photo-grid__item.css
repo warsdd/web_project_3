@@ -1,0 +1,6 @@
+.photo-grid__item {
+    max-width: 284px;
+    height: 213px;
+    margin: auto;
+    /*still need padding between photos*/
+  }

@@ -1,0 +1,25 @@
+.cover {
+    max-width: 1184px;
+    height: 740px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("/images/__background.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .cover {
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  
+  @media screen and (max-width: 425px) {
+    .cover {
+      background-size: cover;
+    }
+  }

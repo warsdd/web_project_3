@@ -1,0 +1,11 @@
+.footer__copyright {
+    width: 165px;
+    margin-top: 92px;
+    padding-bottom: 24px;
+    /*why is there a white strip at the bottom?*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+  }
