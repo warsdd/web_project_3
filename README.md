@@ -18,8 +18,13 @@ All of the elements are designed to be displayed correctly on popular screen siz
 - Flexbox, grids, and positioning
 
 ## Next Steps
-- Any additional link animations
+- Ensuring that everything is displayed correctly across breakpoints
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes
+- Refining code and carrying out corrections from code reviews
+- Any additional link animations
+- Adding tab icon
+
+
 
 
 
