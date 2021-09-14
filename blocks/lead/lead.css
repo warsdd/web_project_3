@@ -4,3 +4,15 @@
     margin: auto;
     text-align: center;
   }
+
+  @media screen and (max-width: 768px) {
+    .lead {
+      padding-top: 88px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .lead {
+      padding-top: 50.54px;
+    }
+  }

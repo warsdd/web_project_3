@@ -1,6 +1,6 @@
 .header {
     max-width: 984px;
-    padding: 34px 0px; 
+    padding-top: 34px; 
     margin: auto;
     display: flex;
     justify-content: center;
@@ -8,16 +8,3 @@
   
   
   
-    @media screen and (max-width: 320px) {
-      .header {
-        max-width: 200px;
-        height: 51.46px;
-      }
-    }
-  
-    @media screen and (max-width: 768px) {
-      .header {
-        max-width: 271px;
-        height: 72px;
-      }
-    }

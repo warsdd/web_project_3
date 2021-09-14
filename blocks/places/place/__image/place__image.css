@@ -4,3 +4,19 @@
     margin-right: 40px;
     margin-top: 48px;
   }
+
+  @media screen and (max-width: 768px) {
+    .place__image{
+      max-width: 340px;
+      height: 340px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place__image{
+      max-width: 320px;
+      height: 320px;
+      margin: 0;
+      padding-top: 30px;
+    }
+  }

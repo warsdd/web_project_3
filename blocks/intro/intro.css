@@ -3,3 +3,9 @@
     margin: auto;
     padding-bottom: 118px;
   }
+
+  @media screen and (max-width: 320px) {
+    .intro {
+      padding-bottom: 90px;
+    }
+  }

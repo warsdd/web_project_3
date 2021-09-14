@@ -6,3 +6,14 @@
     line-height: 34px;
     margin: 32px 0 0;
   }
+
+  @media screen and (max-width: 320px) {
+    .intro__description {
+      max-width: 288px;
+      margin: auto;
+      line-height: 26.08px;
+      padding-bottom: 118px;
+      padding-top: 32px;
+      padding-bottom: 0;
+    }
+  }

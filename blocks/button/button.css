@@ -12,3 +12,17 @@
   .button:hover {
     opacity: 0.7;
   }
+
+  @media screen and (max-width: 320px) {
+    .button {
+      max-width: 300px;
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-bottom: 48px;
+    }
+  }
+
+  /*why won't the button expand in 320 to the appropriate width? */
+
+  
+/*how to get this right underneath the image in 768?*/
