@@ -2,7 +2,8 @@
 
 ### Overview  
   
-A responsive landing page that showcases the hometowns of some of Practicum's employees. All of the elements are displayed correctly on popular screen sizes.
+A responsive landing page that showcases the hometowns of some of Practicum's employees. 
+All of the elements are designed to be displayed correctly on popular screen sizes.
 
 The third project of the ***Practicum by Yandex*** Web Development course.
 
