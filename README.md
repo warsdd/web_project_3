@@ -2,7 +2,7 @@
 
 ### Overview  
   
-A responsive landing page that showcases the hometowns of some of Practicum's employees. 
+A responsive landing page that showcases the hometowns of some of Practicum's employees and students.
 
 The third project of the ***Practicum by Yandex*** Web Development course.
 
