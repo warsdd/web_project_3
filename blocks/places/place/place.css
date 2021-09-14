@@ -1,5 +1,4 @@
-
-.place { /*need to have a look at this layout*/
+.place {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

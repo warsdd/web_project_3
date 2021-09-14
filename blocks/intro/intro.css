@@ -4,6 +4,16 @@
     padding-bottom: 118px;
   }
 
+  @media screen and (max-width: 768px) {
+    .intro {
+      max-width: 720px;
+      margin: 0 auto;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-bottom: 88px;
+    }
+  }
+
   @media screen and (max-width: 320px) {
     .intro {
       padding-bottom: 90px;

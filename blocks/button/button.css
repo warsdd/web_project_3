@@ -5,24 +5,23 @@
     height: 48px;
     margin-top: 48px;
     margin-bottom: 80px;
-    border-width: 0px;
-    transition: opacity 0.2s linear;
+    transition: background-color 0.3s linear;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .button:hover {
-    opacity: 0.7;
+    background-color: #0077ffa9;
   }
 
   @media screen and (max-width: 320px) {
     .button {
-      max-width: 300px;
+      width: 288px;
       margin: 0 auto;
-      margin-top: 30px;
+      margin-top: 14px;
       margin-bottom: 48px;
     }
   }
 
-  /*why won't the button expand in 320 to the appropriate width? */
-
-  
-/*how to get this right underneath the image in 768?*/

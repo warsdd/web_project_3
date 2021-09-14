@@ -3,3 +3,18 @@
     margin: auto;
     margin-top: 92px;
   }
+
+  @media screen and (max-width: 768px) {
+    .places {
+      margin: 0 auto;
+      padding-top: 88px;
+      padding-left: 24px;
+      padding-bottom: 88px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .places {
+      margin-top: 64px;
+    }
+  }

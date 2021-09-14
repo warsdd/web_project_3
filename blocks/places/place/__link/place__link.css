@@ -6,11 +6,9 @@
     line-height: 122%;
     color: #FFFFFF;
     text-decoration: none;
+    transition: opacity 0.3s linear;
   }
 
-  
-  @media screen and (max-width: 768px) {
-    .place__link {
-      max-width: 316px;
-    }
+  .place__link:hover {
+      opacity: 0.6;
   }

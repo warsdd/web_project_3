@@ -7,9 +7,3 @@
     text-decoration: none;
     color: #FFFFFF;
   }
-
-  @media screen and (max-width: 320px) {
-    .button__link {
-      line-height: 21.78px;
-    }
-  }
