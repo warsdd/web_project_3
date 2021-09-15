@@ -16,6 +16,12 @@
     background-color: #0077ffa9;
   }
 
+@media screen and (max-width) {
+  .button {
+    margin: 0;
+  }
+}
+
   @media screen and (max-width: 320px) {
     .button {
       width: 288px;
