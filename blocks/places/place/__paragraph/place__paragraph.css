@@ -20,7 +20,7 @@
       max-width: 288px;
       font-size: 16px;
       line-height: 26.08px;
-      margin: 16px; /*should be auto but doesn't work?*/
+      margin: 16px;
       margin-top: 25px;
     }
   }

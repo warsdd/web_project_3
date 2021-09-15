@@ -3,31 +3,24 @@
     border-radius: 4px;
     width: 248px;
     height: 48px;
-    margin-top: 48px;
-    margin-bottom: 80px;
     transition: background-color 0.3s linear;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
+    grid-area: button;
+    margin-top: 48px;
   }
   
   .button:hover {
     background-color: #0077ffa9;
   }
 
-@media screen and (max-width) {
-  .button {
-    margin: 0;
-  }
-}
-
   @media screen and (max-width: 320px) {
     .button {
       width: 288px;
       margin: 0 auto;
       margin-top: 14px;
-      margin-bottom: 48px;
     }
   }
 
