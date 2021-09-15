@@ -8,7 +8,7 @@ The third project of the ***Practicum by Yandex*** Web Development course.
 
 All of the elements are designed to be displayed correctly on popular screen sizes.
 
-[See the live Github page here]()
+[See the live Github page here](https://warsdd.github.io/web_project_3/)
 
 [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)
 
