@@ -1,12 +1,12 @@
 .cover {
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("/images/__background.png");
+    background-image: url("https://github.com/warsdd/web_project_3/blob/main/images/__background.png?raw=true");
     background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
@@ -15,7 +15,7 @@
 
   @media screen and (max-width: 320px) {
     .cover {
-      width: 320px;
-      height: 254px;
+      max-width: 320px;
+      min-height: 254px;
     }
   }

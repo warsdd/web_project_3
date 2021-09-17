@@ -1,14 +1,6 @@
 .cover__button {
-    width: 197px;
+    max-width: 137px;
     height: 48px;
-    margin-top: 32px;
+    margin: 0 auto;
     z-index: 1;
-  }
-
-  @media screen and (max-width: 320px) {
-    .cover__button {
-      width: 137px;
-      height: 48px;
-      margin: 0 auto;
-    }
   }

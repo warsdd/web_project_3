@@ -10,6 +10,12 @@
     justify-content: center;
     grid-area: button;
     margin-top: 48px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #FFFFFF;
   }
   
   .button:hover {
