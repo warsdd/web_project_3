@@ -2,20 +2,17 @@
     max-width: 984px;
     margin: auto;
     padding-top: 92px;
-    padding-bottom: 118px;
   }
 
   @media screen and (max-width: 768px) {
     .intro {
       max-width: 720px;
-      padding-bottom: 88px;
     }
   }
 
   @media screen and (max-width: 320px) {
     .intro {
       padding-top: 64px;
-      padding-bottom: 90px;
       padding-left: 16px;
       padding-right: 16px;
     }

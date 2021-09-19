@@ -9,6 +9,12 @@
     text-align: center;
   }
 
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    padding-top: 88px;
+  }
+}
+
   @media screen and (max-width: 320px) {
     .footer__copyright {
       padding-top: 64px;
