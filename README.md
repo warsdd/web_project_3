@@ -6,7 +6,7 @@ A responsive landing page that showcases the hometowns of some of Practicum's em
 
 The third project of the ***Practicum by Yandex*** Web Development course.
 
-All of the elements are designed to be displayed correctly on popular screen sizes.
+All of the elements are designed to be displayed correctly on popular screen sizes (1280px, 768px, 320px).
 
 [See the live Github page here](https://warsdd.github.io/web_project_3/)
 
@@ -20,11 +20,10 @@ All of the elements are designed to be displayed correctly on popular screen siz
 - Flexbox, grids, and positioning
 
 ## Next Steps
+- Refining code and carrying out corrections from code reviews
 - Ensuring that everything is displayed correctly across breakpoints
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes
-- Refining code and carrying out corrections from code reviews
-- Any additional link animations
-- Adding tab icon
+- Any additional animations
 
 
 
