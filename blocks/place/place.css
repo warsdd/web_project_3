@@ -32,6 +32,7 @@
       "text"
       "button";
       grid-gap: 30px;
+      padding-bottom: 48px;
     }
 
     .place:last-child{
