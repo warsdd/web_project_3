@@ -1,7 +1,7 @@
 .cover__overlay {
     max-width: 1184px;
     min-height: 740px;
-    transition: opacity 0.3s linear;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,16 +9,16 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    position: relative;
     justify-content: center;
+    transition: opacity 0.3s linear;
     z-index: 1;
   }
 
   .cover__overlay::before{
     content: "";
+    position: absolute;
     background-color: #2A2C2F;
     opacity: 0.3;
-    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;

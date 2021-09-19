@@ -1,8 +1,8 @@
 .lead {
     max-width: 984px;
-    padding-top: 92px;
     margin: auto;
     text-align: center;
+    padding-top: 92px;
   }
 
   @media screen and (max-width: 768px) {

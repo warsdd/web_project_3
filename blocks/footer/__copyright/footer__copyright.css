@@ -1,12 +1,12 @@
 .footer__copyright {
     margin: 0 auto;
-    padding-top: 92px;
-    padding-bottom: 24px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
+    padding-top: 92px;
+    padding-bottom: 24px;
   }
 
 @media screen and (max-width: 768px) {
@@ -17,7 +17,7 @@
 
   @media screen and (max-width: 320px) {
     .footer__copyright {
-      padding-top: 64px;
       line-height: 14px;
+      padding-top: 64px;
     }
   }
