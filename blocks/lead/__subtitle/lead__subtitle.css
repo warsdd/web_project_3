@@ -4,8 +4,8 @@
     font-size: 30px;
     line-height: 36px;
     margin: auto;
-    margin-bottom: 64px;
     margin-top: 32px;
+    margin-bottom: 64px;
   }
 
   @media screen and (max-width: 768px) {

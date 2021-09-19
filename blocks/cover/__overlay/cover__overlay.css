@@ -6,9 +6,9 @@
     flex-direction: column;
     align-items: center;
     background-image: url("../../../images/__background.png");
-    background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     justify-content: center;
     transition: opacity 0.3s linear;
     z-index: 1;
@@ -16,8 +16,8 @@
 
   .cover__overlay::before{
     content: "";
-    position: absolute;
     background-color: #2A2C2F;
+    position: absolute;
     opacity: 0.3;
     top: 0;
     right: 0;
