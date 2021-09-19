@@ -18,10 +18,11 @@ All of the elements are designed to be displayed correctly on popular screen siz
 - BEM file structure
 - Animations
 - Flexbox, grids, and positioning
+- Pseudo classes and elements
+- Working from a Figma brief
 
 ## Next Steps
 - Refining code and carrying out corrections from code reviews
-- Ensuring that everything is displayed correctly across breakpoints
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes
 - Any additional animations
 
