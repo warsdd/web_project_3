@@ -6,8 +6,15 @@
       "title link"
       "image text"
       "button text";
-  grid-gap: 48px 40px;
+  gap: 48px 40px;
   padding-bottom: 80px;
+}
+
+@media screen and (max-width: 946px) {
+  .place {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 420px auto;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -21,7 +28,19 @@
   }
 }
 
-  @media screen and (max-width: 320px) {
+@media screen and (max-width: 710px) {
+  .place {
+    grid-template-rows: auto 285px auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .place {
+    grid-template-rows: auto 233px auto;
+  }
+}
+
+  @media screen and (max-width: 525px) {
     .place {
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, auto);
@@ -31,12 +50,17 @@
       "image"
       "text"
       "button";
-      grid-gap: 30px;
-      padding-bottom: 48px;
     }
 
     .place:last-child{
       padding-bottom: 64px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .place {
+      grid-gap: 30px;
+      padding-bottom: 48px;
     }
   }
 
