@@ -28,3 +28,11 @@
     }
   }
 
+  @media screen and (max-width: 320px) {
+    .button {
+      max-width: 75%;
+      font-size: 12px;
+      margin: 0 auto;
+    }
+  }
+
