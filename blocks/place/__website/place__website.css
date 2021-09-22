@@ -1,16 +1,10 @@
 .place__website {
-    width: 484px;
+    max-width: 484px;
     display: inline-flex;
     flex-direction: column;
     justify-content: flex-end;
     margin: 0;
     grid-area: link;
-  }
-
-  @media screen and (max-width: 768px) {
-    .place__website {
-      max-width: 352px;
-    }
   }
 
   @media screen and (max-width: 320px) {

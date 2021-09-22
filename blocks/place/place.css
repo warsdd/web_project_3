@@ -40,8 +40,9 @@
   }
 }
 
-  @media screen and (max-width: 525px) {
+  @media screen and (max-width: 643px) {
     .place {
+      max-width: 643px;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, auto);
       grid-template-areas:
@@ -57,8 +58,15 @@
     }
   }
 
+  @media screen and (max-width: 515px) {
+    .place {
+      max-width: 500px;
+    }
+  }
+
   @media screen and (max-width: 425px) {
     .place {
+      max-width: 100%;
       grid-gap: 30px;
       padding-bottom: 48px;
     }

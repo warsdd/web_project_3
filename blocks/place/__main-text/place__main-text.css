@@ -17,6 +17,13 @@
 
   @media screen and (max-width: 643px) {
     .place__main-text {
+      max-width: 579px;
+      margin: 0 16px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .place__main-text {
       max-width: 288px;
       margin: 0 16px;
     }

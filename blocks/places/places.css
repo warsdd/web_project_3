@@ -8,8 +8,10 @@
     max-width: 850px;
   }
 }
+
   @media screen and (max-width: 768px) {
     .places {
+      max-width: 720px;
       padding-left: 24px;
       padding-bottom: 88px;
     }
