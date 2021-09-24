@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto 460px auto;
   grid-template-areas:
       "title link"
@@ -12,7 +12,6 @@
 
 @media screen and (max-width: 946px) {
   .place {
-    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto 420px auto;
   }
 }
@@ -34,15 +33,8 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .place {
-    grid-template-rows: auto 233px auto;
-  }
-}
-
   @media screen and (max-width: 643px) {
     .place {
-      max-width: 643px;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(4, auto);
       grid-template-areas:
@@ -51,6 +43,8 @@
       "image"
       "text"
       "button";
+      max-width: 579px;
+      margin: auto;
     }
 
     .place:last-child{

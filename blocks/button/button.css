@@ -1,7 +1,7 @@
 .button {
     background: #0278FE;
     border-radius: 4px;
-    width: 248px;
+    max-width: 248px;
     height: 48px;
     font-style: normal;
     font-weight: 600;
@@ -21,18 +21,16 @@
     background-color: #0077ffa9;
   }
 
+  @media screen and (max-width: 710px) {
+    .button {
+      margin-top: 48px;
+    }
+  }
+
   @media screen and (max-width: 643px) {
     .button {
-      width: 288px;
+      max-width: 288px;
+      width: 100%;
       margin: 0 auto;
     }
   }
-
-  @media screen and (max-width: 320px) {
-    .button {
-      max-width: 75%;
-      font-size: 12px;
-      margin: 0 auto;
-    }
-  }
-
