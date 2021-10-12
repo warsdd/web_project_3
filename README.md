@@ -4,7 +4,7 @@
   
 A responsive landing page that showcases the hometowns of some of Practicum's employees and students.
 
-The third project of the ***Practicum by Yandex*** Web Development course.
+The third project of the [***Practicum by Yandex***](https://practicum.yandex.com/) Web Development course.
 
 All of the elements are designed to be displayed correctly on popular screen sizes (1280px, 768px, 320px).
 
