@@ -22,7 +22,6 @@ All of the elements are designed to be displayed correctly on popular screen siz
 - Working from a Figma brief
 
 ## Next Steps
-- Refining code
 - Checking the code for cross-compatibility and adding all the necessary vendor prefixes
 - Any additional animations
 
